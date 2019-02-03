@@ -31,7 +31,9 @@ namespace CSharp_Stack
             stackCollection4.Push(10.50);
 
             stackCollection4.Clear();
-            Console.WriteLine($"stackCollection4 Count: {stackCollection4.Count}"); 
+            Console.WriteLine($"stackCollection4 Count: {stackCollection4.Count}");
+
+            Console.ReadKey();
         }
 
         private static void WorkWithStack_3()
